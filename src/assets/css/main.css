@@ -1,3 +1,6 @@
+@import 'tailwindcss/tailwind.css';
+
+
 .App {
   background-color: #ffc600;
 }
@@ -13,10 +16,10 @@
   justify-content: center;
   gap: 22px;
 }
-.app-compteur>.btn {
+/* .app-compteur>.btn {
   width: 50px;
   height: 50px;
-}
+} */
 .app-compteur>.screen-compteur {
   font-size: 2rem;
 }
