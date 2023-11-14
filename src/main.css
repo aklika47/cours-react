@@ -1,0 +1,26 @@
+.App {
+  background-color: #ffc600;
+}
+.invisible {
+  display: none;
+}
+
+.app-compteur {
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+.app-compteur>.btn {
+  width: 50px;
+  height: 50px;
+}
+.app-compteur>.screen-compteur {
+  font-size: 2rem;
+}
+.app-compteur>.screen-compteur.error {
+  font-size: 2rem;
+  color: #f00;
+}
